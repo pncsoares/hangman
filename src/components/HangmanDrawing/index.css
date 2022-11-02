@@ -1,0 +1,114 @@
+.hang-container {
+    position: relative;
+}
+
+.up-bar {
+    height: 50px;
+    width: 10px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hook {
+    height: 10px;
+    width: 200px;
+    background-color: black;
+
+    /*
+   * 1. base width (250) divided by two = 125
+   * 2. divide base height (10) by two = 5
+   * 3. subtract 125 with 5 = 120
+   */
+    margin-left: 120px;
+}
+
+.vertical-bar {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+
+    /*
+   * 1. base width (250) divided by two = 125
+   * 2. divide base height (10) by two = 5
+   * 3. subtract 125 with 5 = 120
+   */
+    margin-left: 120px;
+}
+
+.base {
+    height: 10px;
+    width: 250px;
+    background-color: black;
+}
+
+.head {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 10px solid black;
+    position: absolute;
+    top: 50px;
+
+    /*
+   * 1. width divided by two = 25
+   * 2. take into account the border: 10 / 2 = 5
+   * 3. 25 + 5 = 30
+   * 4. negative 30 because we want the head centered
+   */
+    right: -30px;
+}
+
+.body {
+    width: 10px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+.left-arm {
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    rotate: 30deg;
+    transform-origin: right bottom;
+}
+
+.right-arm {
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    right: -100px;
+    rotate: -30deg;
+    transform-origin: left bottom;
+}
+
+.left-leg {
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 210px;
+    right: 0;
+    rotate: -60deg;
+    transform-origin: right bottom;
+}
+
+.right-leg {
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 210px;
+    right: -90px;
+    rotate: 60deg;
+    transform-origin: left bottom;
+}

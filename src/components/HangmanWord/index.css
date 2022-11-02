@@ -1,0 +1,21 @@
+.word-container {
+    display: flex;
+    gap: 0.25em;
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.letter {
+    border-bottom: 0.1em solid black;
+}
+
+.curtain {
+    visibility: hidden;
+}
+
+.red {
+    color: red;
+    opacity: 0.7;
+}
