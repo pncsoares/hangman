@@ -82,6 +82,9 @@ function App() {
 
     return (
         <div className="container">
+            <div className='info-banner'>
+                ℹ️ The words are in English
+            </div>
             <div className="info-banner">
                 {isWinner && 'Winner!'}
                 {isLoser && 'You lost... nice try'}

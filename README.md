@@ -1,6 +1,6 @@
 # Hangman game
 
-![](https://media.giphy.com/media/3UbljuWB8dfsSXZQeg/giphy.gif)
+![hangman](https://media.giphy.com/media/3UbljuWB8dfsSXZQeg/giphy.gif)
 
 No first letter is shown to turn the game interesting 😱
 
